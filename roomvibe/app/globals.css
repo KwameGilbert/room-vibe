@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+header{
+  background-color: #f9f8f4;
+}
+
+.hero{
+  background-image: linear-gradient(rgb(247, 198, 145,0.2), rgba(255, 244, 230,0)),url('../public/images/hero-bg.jpg');
+ background-size: cover;
+ background-position: center;
+}
