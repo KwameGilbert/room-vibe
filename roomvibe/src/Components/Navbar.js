@@ -8,7 +8,7 @@ import { FaSearch } from "react-icons/fa";
 export default function Navbar () {
   return (
     // This is the navigation bar
-    <header className="flex lg:flex-row items-center justify-between lg:justify-around py-6 px-5 fixed lg:relative w-[100%] z-50">
+    <header className="flex lg:flex-row items-center justify-between lg:justify-around py-3 px-5 fixed lg:relative w-[100%] z-50">
       {/* This is the Logo */}
       <div>
         <h1><Link href="/" className="text-2xl font-semibold">Room<span className="text-3xl text-[#fd7e14]">V</span>ibe</Link></h1>

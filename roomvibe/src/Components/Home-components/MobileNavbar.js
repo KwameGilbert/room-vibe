@@ -9,7 +9,7 @@ import { CgProfile } from "react-icons/cg";
 export default function MobileNavbar (){
   return(
     <header className="flex lg:hidden fixed w-[100%] bottom-0 z-50">
-      <ul className="flex gap-10 justify-between items-center px-3 py-2">
+      <ul className="flex gap-10 justify-center items-center px-3 py-2">
         <li className="text-[#fd7e14]"><Link href="/" className="flex flex-col items-center"><TbViewfinder size={25}/> <p className="text-[10px]">Explore</p></Link></li>
 
         <li className=""><Link href="/" className="flex flex-col items-center"><FaRegStar size={25}/> <p className="text-[10px] text-[#868e96]">WishList</p></Link></li>
