@@ -14,7 +14,7 @@ export default function ExploreHostelsMobile (){
           <h1 className="text-xl font-semibold">Green Hostel</h1>
           <p className="text-sm text-gray-500 font-semibold">AAMUSTED - Tanoso</p>
 
-          <div className="pt-10 flex justify-between">
+          <div className="pt-10 flex items-center justify-center gap-10">
             <button className="bg-[#2f9e44] px-2 text-white font-semibold rounded-md">Available</button>
             <FaRegStar size={20}/>
           </div>
