@@ -2,6 +2,10 @@ import MobileNavbar from "@/src/Components/Home-components/MobileNavbar"
 import Link from "next/link"
 import { CgProfile } from "react-icons/cg";
 import { IoIosArrowForward } from "react-icons/io";
+import { IoBagSharp } from "react-icons/io5";
+import { FaPeopleLine } from "react-icons/fa6";
+import { TiContacts } from "react-icons/ti";
+import { IoMdHelpCircle } from "react-icons/io";
 
 
 export default function profile() {
@@ -33,7 +37,7 @@ export default function profile() {
 
           <div className="flex items-center justify-between py-5 border-b border-slate-500">
             <p className="flex gap-5 items-center ">
-              <CgProfile size={30} color="#fd7e14"/>
+              <IoBagSharp size={30} color="#fd7e14"/>
               <small className="text-xl">How RoomVibe Works</small>
             </p>
             <IoIosArrowForward size={30}/>
@@ -41,7 +45,7 @@ export default function profile() {
 
           <div className="flex items-center justify-between py-5 border-b border-slate-500">
             <p className="flex gap-5 items-center ">
-              <CgProfile size={30} color="#fd7e14"/>
+              <FaPeopleLine size={30} color="#fd7e14"/>
               <small className="text-xl">Our Referral Program</small>
             </p>
             <IoIosArrowForward size={30}/>
@@ -49,7 +53,7 @@ export default function profile() {
 
           <div className="flex items-center justify-between py-5 border-b border-slate-500">
             <p className="flex gap-5 items-center ">
-              <CgProfile size={30} color="#fd7e14"/>
+              <TiContacts size={30} color="#fd7e14"/>
               <small className="text-xl">Contact Us</small>
             </p>
             <IoIosArrowForward size={30}/>
@@ -57,7 +61,7 @@ export default function profile() {
 
           <div className="flex items-center justify-between py-5 border-b border-slate-500">
             <p className="flex gap-5 items-center ">
-              <CgProfile size={30} color="#fd7e14"/>
+              <IoMdHelpCircle size={30} color="#fd7e14"/>
               <small className="text-xl">Help</small>
             </p>
             <IoIosArrowForward size={30}/>
