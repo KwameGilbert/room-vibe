@@ -4,7 +4,7 @@ import Wishlist from "../../public/images/wish.gif"
 
 export default function wishlist (){
   return(
-    <section>
+    <section className="lg:hidden">
       <MobileNavbar/>
       <h1 className="text-3xl text-center pt-10">Wishlist</h1>
       <div className="flex flex-col items-center justify-center h-[70vh]">

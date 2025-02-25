@@ -10,15 +10,15 @@ import { IoMdHelpCircle } from "react-icons/io";
 
 export default function profile() {
   return(
-    <main>
+    <main className="lg:hidden">
       <MobileNavbar/>
       <section className="flex flex-col py-10 px-5  pb-24 h-[85h] overflow-scroll ">
       <div>
         <h1 className="text-center text-3xl pb-6 font-semibold text-[#ff8929]">Profile</h1>
-        <p className="flex flex-col text-xl">
-          Owusu Boateng 
-          <small className="text-gray-400">owusuboateng@gamail.com</small>
-        </p>
+       <div>
+         <p className="flex flex-col text-xl">Owusu Boateng</p>
+         <p className="text-gray-400 text-sm">owusuboateng@gamail.com</p>
+       </div>
 
         <div className="shadow-md m-5 p-5 rounded-xl flex flex-col items-center justify-center">
         <h1><Link href="/" className="text-2xl font-semibold">Room<span className="text-3xl text-[#fd7e14]">V</span>ibe</Link></h1>

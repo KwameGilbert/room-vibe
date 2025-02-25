@@ -4,7 +4,7 @@ import Map from "../../public/images/map1.gif"
 
 export default function map (){
   return(
-    <section>
+    <section className="lg:hidden">
       <MobileNavbar/>
       <h1 className="text-3xl text-center pt-10">Map</h1>
       <div className="flex flex-col items-center justify-center h-[70vh]">
