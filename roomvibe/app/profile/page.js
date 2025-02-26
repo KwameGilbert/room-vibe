@@ -69,7 +69,7 @@ export default function profile() {
         </div>
         <div className="flex items-center justify-center pt-5">
           <p></p>
-        <button className="text-3xl bg-[#fd7e14] px-8 py-3 rounded-md font-semibold">Logout</button>
+        <Link href="/login"><button className="text-3xl bg-[#fd7e14] px-8 py-3 rounded-md font-semibold">Logout</button></Link>
         </div>
       </div>
     </section>
