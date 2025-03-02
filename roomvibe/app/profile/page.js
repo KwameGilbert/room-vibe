@@ -37,13 +37,15 @@ export default function Profile() {
             </Link>
           </div>
 
-          <div className="flex items-center justify-between py-5 border-b border-slate-500">
-            <p className="flex gap-5 items-center ">
-              <IoBagSharp size={30} color="#fd7e14"/>
-              <small className="text-xl">How RoomVibe Works</small>
-            </p>
-            <IoIosArrowForward size={30}/>
-          </div>
+          <Link href="/how_roomvibe_works" className="text-decoration-none cursor-pointer">
+            <div className="flex items-center justify-between py-5 border-b border-slate-500">
+              <p className="flex gap-5 items-center ">
+                <IoBagSharp size={30} color="#fd7e14"/>
+                <small className="text-xl">How RoomVibe Works</small>
+              </p>
+              <IoIosArrowForward size={30}/>
+            </div>
+            </Link>
 
           <div className="flex items-center justify-between py-5 border-b border-slate-500">
             <p className="flex gap-5 items-center ">
