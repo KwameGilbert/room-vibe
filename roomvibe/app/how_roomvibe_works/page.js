@@ -44,6 +44,7 @@ export default function HowRoomVibeWorks() {
 
 
         </div>
+        
     </section>
   );
 }
