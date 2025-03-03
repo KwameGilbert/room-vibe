@@ -55,13 +55,15 @@ export default function Profile() {
             <IoIosArrowForward size={30}/>
           </div>
 
-          <div className="flex items-center justify-between py-5 border-b border-slate-500">
-            <p className="flex gap-5 items-center ">
-              <TiContacts size={30} color="#fd7e14"/>
-              <small className="text-xl">Contact Us</small>
-            </p>
-            <IoIosArrowForward size={30}/>
-          </div>
+          <Link href="/contact_us" className="text-decoration-none cursor-pointer">
+            <div className="flex items-center justify-between py-5 border-b border-slate-500">
+              <p className="flex gap-5 items-center ">
+                <TiContacts size={30} color="#fd7e14"/>
+                <small className="text-xl">Contact Us</small>
+              </p>
+              <IoIosArrowForward size={30}/>
+            </div>
+          </Link>
 
           <div className="flex items-center justify-between py-5 border-b border-slate-500">
             <p className="flex gap-5 items-center ">
