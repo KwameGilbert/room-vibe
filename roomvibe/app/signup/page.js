@@ -1,6 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
-import Signup from "../../public/images/wish.gif";
 
 export default function signup() {
   return (
@@ -8,20 +6,22 @@ export default function signup() {
       <h1 className="text-2xl text-center pb-3 font-semibold">
         Create An Account
       </h1>
-      <Image src={Signup} alt="sign up page" />
+    
       <form action="" className="flex flex-col gap-3">
         {/* this is the username's name */}
         <div className="flex flex-col gap-2">
           <label htmlFor="name" className="text-2xl">
-            Full Name
+            Username
           </label>
           <input
             type="text"
             placeholder="John Doe"
             name="name"
-            className="h-[60px] border border-slate-950 px-2 text-xl rounded-md focus:outline-none mb-2"/>
+            required
+            className="h-[55px] border border-slate-950 px-2 text-xl rounded-md focus:outline-none mb-2"/>
         </div>
-
+         
+         {/* this the user's email */}
         <div className="flex flex-col gap-2">
           <label htmlFor="email" className="text-2xl">
             Email
@@ -29,16 +29,42 @@ export default function signup() {
           <input
             type="email"
             placeholder="johndoe@gmail.com"
-            name="name"
-            className="h-[60px] border border-slate-950 px-2 text-xl rounded-md focus:outline-none"
+            name="email"
+            required
+            className="h-[55px] border border-slate-950 px-2 text-xl rounded-md focus:outline-none"
           />
+        </div>
+
+        {/* this is the user's phone number */}
+        <div className="flex flex-col gap-2">
+        <label htmlFor="contact" className="text-2xl">
+            Phone Number
+          </label>
+          <input
+            type="tel"
+            placeholder="johndoe@gmail.com"
+            name="contact"
+            required
+            className="h-[55px] border border-slate-950 px-2 text-xl rounded-md focus:outline-none"
+          />
+        </div>
+
+        {/* this is the user's password */}
+        <div className="flex flex-col gap-2">
+          <label htmlFor="password" className="text-2xl">Password</label>
+          <input
+            type="password"
+            placeholder="enter your password"
+            name="name"
+            required
+            className="h-[55px] border border-slate-950 px-2 text-xl rounded-md focus:outline-none"></input>
         </div>
 
         {/* this is the submit button */}
         <input
           type="submit"
           value="Sign Up"
-          className="bg-[#fd7e14] p-3 text-3xl font-bold rounded-md"
+          className="bg-[#fd7e14] p-3 text-3xl font-bold rounded-md mt-7"
         />
       </form>
     </section>
