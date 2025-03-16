@@ -1,5 +1,6 @@
 import MobileNavbar from "@/src/Components/Home-components/MobileNavbar";
-
+import { IoArrowBack } from "react-icons/io5";
+import Link from "next/link";
 
 export default function ContactUs() {
   return (
@@ -7,7 +8,9 @@ export default function ContactUs() {
 
       <MobileNavbar/>
 
-      
+      <Link href="/profile">
+          <IoArrowBack size={100} className="py-5 text-[#ff8929]"/>
+        </Link>
         <div className="flex flex-col items-center justify-center pt-10 px-4">
             <h1 className="text-3xl text-[#ff8929] font-bold">Contact Us</h1>
             <p className="text-center text-[#868e96] mt-3">We are here to help you with any issues you may have. Please feel free to reach out to us.</p>
