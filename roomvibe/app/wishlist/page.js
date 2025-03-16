@@ -11,7 +11,7 @@ export default function wishlist (){
     <section className="lg:hidden">
       <MobileNavbar/>
       <h1 className="text-3xl text-center pt-10">Wishlist</h1>
-      <div className="flex flex-col">
+      <div className="flex flex-col px-5">
       <div className="w-full flex gap-10 border-b-[1px] border-slate-300 py-5">
         <Image src={Hostel1} alt="Green Hostel" width={150} className="rounded-lg"/>
         <div>
