@@ -8,7 +8,7 @@ export default function HowRoomVibeWorks() {
       <MobileNavbar />
 
       <Link href="/profile">
-        <IoArrowBack size={80} className="pt-5 text-[#ff8929]" />
+        <IoArrowBack size={60} className="pt-5 text-[#ff8929]" />
       </Link>
       <div className="flex flex-col items-center justify-center pt-10 px-5">
         <h1 className="text-3xl text-[#ff8929] font-bold">
